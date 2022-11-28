@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.vtxlab.demo.helloworld.HelloworldApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.059 s - in com.vtxlab.demo.helloworld.HelloworldApplicationTests
