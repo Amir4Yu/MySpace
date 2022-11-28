@@ -1,0 +1,6 @@
+com/vtxlab/demo/student/service/impl/CollegeStudentService.class
+com/vtxlab/demo/student/service/StudentService.class
+com/vtxlab/demo/student/config/StudentConfiguration.class
+com/vtxlab/demo/student/entity/Student.class
+com/vtxlab/demo/student/StudentApplication.class
+com/vtxlab/demo/student/repository/StudentRepository.class
