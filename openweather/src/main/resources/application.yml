@@ -1,0 +1,35 @@
+server:
+  port: 8086
+
+service:
+  appId: feecad4274f9d9e936d652a8fed7783e
+  currentweather:
+    baseUrl: https://api.openweathermap.org
+    serviceVers: data/2.5
+    serviceUrl: weather
+
+
+rest:
+  conn-mgr:
+    connection:
+      max-total: 20
+      max-per-route: 40
+    check:
+      inactivity: 1000
+  http-client:
+    timeout:
+      evictIdleConnection: 5
+  http-request-factory:
+    timeout:
+      pool-connect: 10000
+      server-connect: 10000
+      server-read: 20000
+
+spring:
+  data:
+    redis:
+      database: 0
+      host: localhost
+      port: 6379
+      password:
+      timeout: 60000
